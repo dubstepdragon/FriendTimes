@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Legsy\**" />
+    <Compile Remove="Rinn\**" />
+    <Compile Remove="Runi\**" />
+    <EmbeddedResource Remove="Legsy\**" />
+    <EmbeddedResource Remove="Rinn\**" />
+    <EmbeddedResource Remove="Runi\**" />
+    <None Remove="Legsy\**" />
+    <None Remove="Rinn\**" />
+    <None Remove="Runi\**" />
+  </ItemGroup>
+
+</Project>
