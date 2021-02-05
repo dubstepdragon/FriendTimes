@@ -30,7 +30,9 @@ namespace FriendTimes.Friends
             HUNGRY,
             COLD,
             HOT,
-            CHILL
+            CHILL,
+            IRKED,
+
         }
         public STATUS status = STATUS.NEUTRAL;
 
@@ -48,7 +50,8 @@ namespace FriendTimes.Friends
             DISGUST,
             SURPRISED,
             TRUSTING,
-            CONTENT
+            CONTENT,
+            MISERABLE,
         }
         public EMOTION emotion = EMOTION.NEUTRAL;
 
